@@ -54,19 +54,39 @@
   background-color: rgb(255, 238, 0);
 }
 
+#highlights h2 {
+    margin: 24px 0;
 
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+}
 
 #destinations {
   display: flex;
   width: 100%;
   margin: auto;
   margin-bottom: 40px;
-  /* justify-content: space-evenly; */
+  justify-content: center;
 }
 
 .destination {
-    width: 100%;
-    margin: 0 20px;
+  width: 100%;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.destination p {
+  margin: 20px 0px;
+
+  text-align: center;
+  color: rgb(124, 123, 123);
+  font-size: 24px;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
 }
 
 .destination img {
@@ -76,4 +96,3 @@
   border-radius: 10px;
   object-fit: cover;
 }
-
